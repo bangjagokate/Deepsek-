@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: deepseek-chat
+    runtime: python
+    buildCommand: ""
+    startCommand: python backend.py
+    envVars:
+      - key: DEEPSEEK_API_KEY
+        value: sk-c72130f0387944fb9b50fa0cedd12dbe
