@@ -5,5 +5,5 @@ services:
     buildCommand: ""
     startCommand: python backend.py
     envVars:
-      - key: DEEPSEEK_API_KEY
+      - key: sk-c72130f0387944fb9b50fa0cedd12dbe
         value: sk-c72130f0387944fb9b50fa0cedd12dbe
